@@ -176,6 +176,7 @@ main {
   display: flex;
   clear: both;
   height: auto;
+  margin-bottom: 30px;
 }
 .test {
   box-sizing: border-box;
@@ -207,6 +208,56 @@ main {
   background-image: url("https://cdn.pixabay.com/photo/2020/04/17/14/16/mountains-5055387_960_720.jpg");
   background-size: cover;
 }
+.btn-cover {
+  text-align: center;
+}
+.btn-cover > button {
+  width: 150px;
+  height: 40px;
+  border-radius: 14px;
+  font-size: 18px;
+}
+.mail-text-box {
+  overflow: hidden;
+  vertical-align: middle;
+  white-space: nowrap;
+  position: relative;
+  margin: 38px auto;
+  display: block;
+  width: 390px;
+  max-width: 100%;
+}
+.mail-text-box > input {
+  width: calc(100% - 77px);
+  height: 48px;
+  background: #fff;
+  border: solid 1px #767676;
+  border-right: none;
+  font-size: 17px;
+  float: left;
+  color: #2b2b2b;
+  padding-left: 55px;
+  padding-right: 16px;
+  box-sizing: border-box;
+}
+.mail-text-box > button {
+  border: solid 1px #767676;
+  border-radius: 0;
+  background: #fff;
+  height: 48px;
+  width: 77px;
+  color: #4f5b66;
+  opacity: 1;
+  font-size: 17px;
+  position: relative;
+}
+
+.msg {
+  margin: 70px 0;
+  text-align: center;
+}
+/* button */
+
 @media screen and (max-width: 1300px) {
   .banner-img > img {
     height: 500px;
